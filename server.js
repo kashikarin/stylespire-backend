@@ -1,9 +1,8 @@
-import { MongoClient } from 'mongodb'
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
-import { clarifaiRoutes } from './api/clarifai/clarifai.routes'
-import { recipesRoutes } from './api/recipes/recipes.routes'
+import { clarifaiRoutes } from './api/clarifai/clarifai.routes.js'
+import { recipesRoutes } from './api/recipes/recipes.routes.js'
 
 
 dotenv.config()
