@@ -1,0 +1,6 @@
+20.11.2025, 16:53:46 - DEBUG - auth.routes - new account created | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+20.11.2025, 16:53:47 - INFO - User signup: | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+20.11.2025, 17:11:33 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+20.11.2025, 17:11:33 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+20.11.2025, 17:16:49 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+20.11.2025, 17:16:49 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
