@@ -99,3 +99,13 @@ export async function logout(req, res) {
     res.status(500).json({ err: 'Failed to logout' })
   }
 }
+
+export function getMe(req, res) {
+  const loggedInUser = req.loggedInUser
+  try {
+    res.send(loggedInUser)
+  } catch(err) {
+    loggerService.error("Failed to load user", err)
+    res.status(500).json({ err: 'Failed to load user' })
+  }
+}

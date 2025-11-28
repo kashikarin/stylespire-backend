@@ -1,0 +1,50 @@
+import { ObjectId } from 'mongodb'
+import { loggerService } from '../../services/logger.service.js'
+import { favoriteService } from './favorite.service.js'
+
+export async function getFavorites(req, res){
+    // const { userId, description, imageId } = req.query
+    const filterFavoritesBy = req.query
+    try {
+        if (filterFavoritesBy.userId) filterFavoritesBy.userId = new ObjectId(filterFavoritesBy.userId)
+        const favorites = await favoriteService.query(filterFavoritesBy)
+        res.json(favorites)
+    } catch(err) {
+        loggerService.error('Failed to get favorites', err)
+        res.status(400).send({ err: 'Failed to get favorites' })
+    }
+}
+
+export function getFavorite(req, res) {
+    const { favoriteId } = req.params
+    try {
+        const favorite = favoriteService.getById(favoriteId)    
+        res.json(favorite)
+    } catch(err) {
+        loggerService.error(`Failed to get favorite by id ${favoriteId}`, err)
+        res.status(400).send({ err: 'Failed to get favorite' })
+    }
+}
+
+export async function addFavorite(req, res) {
+    const favorite = req.body //later - add requireAuth and get the user's data from teh backend and not from frontend
+    try {
+        favorite.user._id = new ObjectId(favorite.user._id)
+        const addedFavorite = await favoriteService.add(favorite)
+        res.json(addedFavorite)
+    } catch(err) {
+        loggerService.error('Failed to add a favorite', err)
+        res.status(400).send({ err: 'Failed to afdd a favorite' })
+    }
+}
+
+export async function removeFavorite(req, res) {
+    const {favoriteId} = req.params
+    try {
+        const removedId = await favoriteService.remove(favoriteId)
+        res.json(removedId)
+    } catch(err) {
+        loggerService.error(`Failed to remove favorite by id ${favoriteId}`, err)
+        res.status(400).send({ err: 'Failed to remove favorite' })
+    }
+}

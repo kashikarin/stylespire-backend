@@ -5,6 +5,8 @@ import { authRoutes } from './api/auth/auth.routes.js'
 import cookieParser from 'cookie-parser'
 import { setupAsyncLocalStorage } from './middleware/setupAls.middleware.js'
 import path from 'path'
+import { userRoutes } from './api/user/user.routes.js'
+import { favoriteRoutes } from './api/favorite/favorite.routes.js'
 
 dotenv.config()
 const app = express()
@@ -31,6 +33,8 @@ if (process.env.NODE_ENV === 'production') {
 app.use(setupAsyncLocalStorage)
 
 app.use("/api/auth", authRoutes)
+app.use("/api/user", userRoutes)
+app.use("/api/favorite", favoriteRoutes)
 
 const PORT = process.env.PORT || 8000
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`))
