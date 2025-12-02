@@ -241,3 +241,7 @@
 2.12.2025, 15:38:37 - INFO - /api/favorite | POST | {"image":{"id":"JVnVeJibk6k","description":"an airplane flying in the sky with a pink background","url":"https://images.unsplash.com/photo-1692290419305-3a13655fda26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGNhc3VhbCUyMHNvY2lhbCUyMHN1bW1lciUyMGNsb3VkeSUyMGRheSUyMG91dGZpdHxlbnwxfDF8fHwxNzY0NjgyNzE0fDA&ixlib=rb-4.1.0&q=80&w=400"},"user":{"_id":"691f2b7a9d476f3935f25391","fullname":"karin kashi"},"createdAt":1764682717633} | {}
 2.12.2025, 16:09:45 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
 2.12.2025, 16:09:45 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+2.12.2025, 16:50:49 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+2.12.2025, 16:50:49 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+2.12.2025, 17:21:06 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+2.12.2025, 17:21:06 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
