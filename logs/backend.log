@@ -245,3 +245,13 @@
 2.12.2025, 16:50:49 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
 2.12.2025, 17:21:06 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
 2.12.2025, 17:21:06 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+3.12.2025, 13:30:48 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+3.12.2025, 13:30:48 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+3.12.2025, 14:00:36 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+3.12.2025, 14:00:36 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+3.12.2025, 14:50:14 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+3.12.2025, 14:50:14 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+3.12.2025, 14:50:35 - INFO - /api/favorite | POST | {"image":{"id":"h4CFBlr5Yjs","description":"A man standing in front of a wooden structure","url":"https://images.unsplash.com/photo-1726741694474-96d9f5a3d28e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHw4fHxtYW4lMjBzdHJlZXQlMjBzdHlsZSUyMGNoaWMlMjBmYXNoaW9uJTIwY2hpYyUyMHN1bW1lciUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjQ3NjYyMzN8MA&ixlib=rb-4.1.0&q=80&w=400"},"user":{"_id":"691f2b7a9d476f3935f25391","fullname":"karin kashi"},"createdAt":1764766235507} | {}
+3.12.2025, 15:48:32 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+3.12.2025, 15:48:32 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+3.12.2025, 15:48:57 - INFO - /api/favorite | POST | {"image":{"id":"1BtYRZi4z4g","description":"woman in white tube top and green and white shorts","url":"https://images.unsplash.com/photo-1549062573-35ba0606e938?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwyNHx8cGxheWZ1bCUyMHN0eWxlJTIwc3VtbWVyJTIwc3VubnklMjBvdXRmaXR8ZW58MXwxfHx8MTc2NDc2OTczM3ww&ixlib=rb-4.1.0&q=80&w=400"},"user":{"_id":"691f2b7a9d476f3935f25391","fullname":"karin kashi"},"createdAt":1764769737681} | {}
