@@ -1,3 +1,5 @@
+import { ObjectId } from "mongodb"
+import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js"
 import { authService } from "./auth.service.js"
 
@@ -8,14 +10,16 @@ export async function signup(req, res) {
     
     loggerService.debug("auth.routes - new account created", user)
 
+    const isProd = process.env.NODE_ENV === 'production'
+
     res.cookie("refreshToken", refreshToken, {
         httpOnly: true,
-        secure: false,  //in production change to true
-        sameSite: "lax",
+        secure: isProd, 
+        sameSite: isProd ? 'None' : "lax",
         path: "/"
     })
 
-    res.json({ user, accessToken })
+    res.json({ user: normalizeUser(user), accessToken })
 
     loggerService.info('User signup:', { email: user.email, _id: user._id } )
     
@@ -26,6 +30,8 @@ export async function signup(req, res) {
 }
 
 export async function login(req, res) {
+  console.log('🍪 cookies:', req.cookies)
+
   try {
     const credentials = req.body
     const { user, accessToken, refreshToken } = await authService.login(credentials)
@@ -41,7 +47,7 @@ export async function login(req, res) {
 
     loggerService.info("User login", { email: user.email, _id: user._id })
 
-    res.json({ user, accessToken })
+    res.json({ user: normalizeUser(user), accessToken })
 
 
 
@@ -65,9 +71,9 @@ export async function refresh(req, res) {
             return res.status(401).json({ error: "Missing refresh token" });
         }
 
-        const { user, accessToken, refreshToken: newRefreshToken } = await authService.refresh(oldRefreshToken);
+        const { accessToken, refreshToken: newRefreshToken } = await authService.refresh(oldRefreshToken);
 
-        loggerService.debug("auth.routes - token refreshed", { _id: user._id })
+        loggerService.debug("auth.routes - token refreshed")
 
     // Replace old cookie with new refresh token
         res.cookie("refreshToken", newRefreshToken, {
@@ -77,7 +83,7 @@ export async function refresh(req, res) {
             path: "/"
         })
 
-        res.json({ user, accessToken })
+        res.json({ accessToken })
 
   } catch (err) {
     loggerService.error("Failed to refresh token", err);
@@ -100,12 +106,33 @@ export async function logout(req, res) {
   }
 }
 
-export function getMe(req, res) {
+export async function getMe(req, res) {
   const loggedInUser = req.loggedInUser
+  console.log("🚀 ~ getMe ~ loggedInUser:", loggedInUser)
   try {
-    res.send(loggedInUser)
+    const collection = await dbService.getCollection('user')
+    const user = await collection.findOne({ 
+      _id: new ObjectId(loggedInUser._id)
+    })
+    if (!user) return res.status(404).send({ err: 'User not found' })
+    
+    res.json({
+      _id: user._id,
+      fullname: user.fullname,
+      email: user.email,
+      createdAt: user.createdAt
+    })
   } catch(err) {
     loggerService.error("Failed to load user", err)
     res.status(500).json({ err: 'Failed to load user' })
+  }
+}
+
+function normalizeUser(user) {
+  console.log("🚀 ~ normalizeUser ~ user:", user)
+  return {
+    _id: user._id,
+    fullname: user.fullname,
+    email: user.email
   }
 }

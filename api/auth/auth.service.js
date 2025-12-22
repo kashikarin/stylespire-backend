@@ -77,16 +77,8 @@ export async function refresh(oldRefreshToken){
     const user = await collection.findOne({ _id: new ObjectId(decoded._id)})
     if (!user) throw new Error('User not found')
         
-    const cleanUser = {
-        _id: user._id,
-        email: user.email,
-        username: user.username,
-        fullname: user.fullname,
-        createdAt: user.createdAt,
-    }
-
-    const { accessToken, refreshToken: newRefreshToken } = createTokens(cleanUser)
-    return { user: cleanUser, accessToken, refreshToken: newRefreshToken }
+    const { accessToken, refreshToken: newRefreshToken } = createTokens({_id: user._id})
+    return { accessToken, refreshToken: newRefreshToken }
 }
 
 function createTokens(user) {

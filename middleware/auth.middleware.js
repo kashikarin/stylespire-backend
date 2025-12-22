@@ -1,37 +1,34 @@
 import jwt from 'jsonwebtoken'
 import { loggerService } from '../services/logger.service.js'
-import { userService } from '../api/user/user.service.js'
 
 export async function requireAuth(req, res, next) {
-
   try {
-
     const authHeader = req.headers.authorization
-    if (!authHeader) return res.status(401).send('No token provided')
+    if (!authHeader) return res.status(401).send({ error: 'TOKEN_EXPIRED' })
     
-    const token = authHeader.split(' ')[1]
+    const [type, token] = authHeader.split(' ')
 
-    const decoded = jwt.verify(token, process.env.JWT_SECRET)
+    if (type !== 'Bearer' || !token) {
+      return res.status(401).send({err: 'Invalid authorization format'})
+    }
 
 
-    const userId = decoded._id
+    const decodedUser = jwt.verify(token, process.env.JWT_SECRET)
 
-
-    const user = await userService.getById(userId)
-    if (!user) return res.status(401).send('User not found')
-    
-    req.loggedInUser = user
+    req.loggedInUser = decodedUser
 
     next()
+
   } catch (err) {
         if (err.name === "TokenExpiredError") {
             return res.status(401).send({ error: 'TOKEN_EXPIRED' })
         }
-        const user = req.loggedInUser || {}
-        const userId = user._id || 'Unknown'
-        const name = user.fullname || user.username || 'Unknown'
-
-    loggerService.error('Auth middleware error:', { userId, name, err })
-    res.status(401).send({ err: 'Invalid token.' })
+    
+      loggerService.error('Auth middleware error:', { 
+        errorName: err.name,
+        errorMessage: err.message      
+      })
+      
+      return res.status(401).send({ error: 'INVALID_TOKEN' })
   }
 }

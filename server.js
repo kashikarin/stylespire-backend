@@ -7,6 +7,7 @@ import { setupAsyncLocalStorage } from './middleware/setupAls.middleware.js'
 import path from 'path'
 import { userRoutes } from './api/user/user.routes.js'
 import { favoriteRoutes } from './api/favorite/favorite.routes.js'
+import { boardRoutes } from './api/board/board.routes.js'
 
 dotenv.config()
 const app = express()
@@ -35,7 +36,7 @@ app.use(setupAsyncLocalStorage)
 app.use("/api/auth", authRoutes)
 app.use("/api/user", userRoutes)
 app.use("/api/favorite", favoriteRoutes)
-
+app.use("/api/board", boardRoutes)
 app.get(/(.*)/, (req, res) => {
   res.sendFile(path.resolve('public/index.html'))
 })

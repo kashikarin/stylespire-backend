@@ -27,14 +27,19 @@ export function getFavorite(req, res) {
 }
 
 export async function addFavorite(req, res) {
-    const favorite = req.body //later - add requireAuth and get the user's data from teh backend and not from frontend
+    const {loggedInUser} = req
+    const favorite = req.body
     try {
-        favorite.user._id = new ObjectId(favorite.user._id)
+        favorite.user = {
+            _id: new ObjectId(loggedInUser._id),
+            fullname: loggedInUser.fullname
+        }
         const addedFavorite = await favoriteService.add(favorite)
+        console.log("🚀 ~ addFavorite ~ addedFavorite:", addedFavorite)
         res.json(addedFavorite)
     } catch(err) {
         loggerService.error('Failed to add a favorite', err)
-        res.status(400).send({ err: 'Failed to afdd a favorite' })
+        res.status(400).send({ err: 'Failed to add a favorite' })
     }
 }
 
