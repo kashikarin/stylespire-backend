@@ -509,3 +509,71 @@
 22.12.2025, 10:25:26 - INFO - /api/favorite | POST | {"image":{"id":"Y-aMjk6B6gg","description":"woman in gray sleeveless shirt and brown shorts leaning on brown wooden door","url":"https://images.unsplash.com/photo-1592250576078-20280ef1df45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHRlZW4lMjBmYXNoaW9uJTIwY2xlYW4lMjBhZXN0aGV0aWMlMjBuZXV0cmFsJTIwYWVzdGhldGljJTIwc3RyZWV0JTIwc3R5bGUlMjBzdW1tZXIlMjBzdW5ueSUyMG91dGZpdHxlbnwxfDF8fHwxNzY2MzkxOTA4fDA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1766391926202} | {}
 22.12.2025, 10:30:12 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
 22.12.2025, 10:30:12 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 10:34:49 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+22.12.2025, 10:34:49 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 10:37:18 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+22.12.2025, 10:37:18 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 11:42:26 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+22.12.2025, 11:42:26 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 11:48:06 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 11:48:06 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+22.12.2025, 11:49:01 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+22.12.2025, 11:49:01 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 12:04:42 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+22.12.2025, 12:04:42 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 14:49:45 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+22.12.2025, 14:49:45 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 20:53:52 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+22.12.2025, 20:53:52 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+22.12.2025, 20:54:03 - ERROR - Failed to update board | Error: Board not found
+22.12.2025, 20:54:03 - ERROR - Failed to update a board | Error: Board not found
+22.12.2025, 20:54:12 - ERROR - Failed to update board | Error: Board not found
+22.12.2025, 20:54:12 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 14:21:42 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+23.12.2025, 14:21:42 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+23.12.2025, 14:32:42 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 14:32:42 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 14:34:02 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 14:34:02 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 14:34:04 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 14:34:04 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 14:45:56 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+23.12.2025, 14:45:56 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+23.12.2025, 14:46:11 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 14:46:11 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 15:17:32 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+23.12.2025, 15:17:32 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+23.12.2025, 15:17:38 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 15:17:38 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 15:28:34 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+23.12.2025, 15:28:34 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+23.12.2025, 15:28:54 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 15:28:54 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 15:30:11 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 15:30:11 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 15:36:13 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 15:36:13 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 15:36:44 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 15:36:44 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 15:38:32 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 15:38:32 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 15:38:41 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 15:38:41 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 15:48:10 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+23.12.2025, 15:48:10 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+23.12.2025, 15:48:12 - ERROR - Failed to update board | Error: Board not found
+23.12.2025, 15:48:12 - ERROR - Failed to update a board | Error: Board not found
+23.12.2025, 16:07:21 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+23.12.2025, 16:07:21 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+23.12.2025, 16:33:09 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+23.12.2025, 16:33:09 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+23.12.2025, 16:33:11 - ERROR - failed to find 691f2b7a9d476f3935f25391's board | TypeError: collection.findOne(...).sort is not a function
+23.12.2025, 16:33:11 - ERROR - Failed to get board by userId 691f2b7a9d476f3935f25391 | TypeError: collection.findOne(...).sort is not a function
+23.12.2025, 16:34:39 - ERROR - Failed to get board by userId 691f2b7a9d476f3935f25391 | TypeError: collection.findOne(...).sort is not a function
+23.12.2025, 16:34:39 - ERROR - failed to find 691f2b7a9d476f3935f25391's board | TypeError: collection.findOne(...).sort is not a function
+23.12.2025, 16:34:43 - ERROR - failed to find 691f2b7a9d476f3935f25391's board | TypeError: collection.findOne(...).sort is not a function
+23.12.2025, 16:34:43 - ERROR - Failed to get board by userId 691f2b7a9d476f3935f25391 | TypeError: collection.findOne(...).sort is not a function
+23.12.2025, 16:36:48 - ERROR - failed to find 691f2b7a9d476f3935f25391's board | TypeError: collection.findOne(...).sort is not a function
+23.12.2025, 16:36:48 - ERROR - Failed to get board by userId 691f2b7a9d476f3935f25391 | TypeError: collection.findOne(...).sort is not a function
+23.12.2025, 16:51:40 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+23.12.2025, 16:51:39 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}

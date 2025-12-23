@@ -36,11 +36,11 @@ async function getLastBoardByUserId(userId){
     try {
         const collection = await dbService.getCollection('board')
 
-        const boards = await collection
-            .find({ 'user._id': toObjectId(userId) })
-            .sort({ updatedAt: -1 })
-            .toArray()
-        return boards[0] || null
+        return await collection
+            .findOne(
+                { 'user._id': toObjectId(userId) },
+                { sort: { updatedAt: -1 } }
+            )
 
     } catch(err) {
         loggerService.error(`failed to find ${String(userId)}'s board`, err)
@@ -79,9 +79,19 @@ async function update(board) {
   boardToUpdate.user._id = toObjectId(boardToUpdate.user._id)
   
   try {
+
     const collection = await dbService.getCollection('board')
-    await collection.updateOne(criteria, { $set: boardToUpdate })
-    return boardToUpdate
+    const updatedBoard = await collection.findOneAndUpdate(
+        criteria, 
+        { $set: boardToUpdate },
+        { returnDocument: 'after', upsert: false }
+    )
+    if (!updatedBoard) throw new Error('Board not found')
+
+    updatedBoard._id = updatedBoard._id.toString()
+    updatedBoard.user._id = updatedBoard.user._id.toString()
+
+    return updatedBoard
   } catch (err) {
     loggerService.error('Failed to update board', err)
     throw err

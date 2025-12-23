@@ -14,6 +14,7 @@ export async function requireAuth(req, res, next) {
 
 
     const decodedUser = jwt.verify(token, process.env.JWT_SECRET)
+    console.log("🚀 ~ requireAuth ~ decodedUser:", decodedUser)
 
     req.loggedInUser = decodedUser
 

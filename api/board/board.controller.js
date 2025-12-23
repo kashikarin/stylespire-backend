@@ -4,23 +4,22 @@ import { boardService } from './board.service.js'
 
 export async function getBoards(req, res){
     const { loggedInUser } = req
-    console.log('get boards - controller runs')
     try {
-        const userId = new ObjectId(loggedInUser._id)
+        const userId = loggedInUser._id
         const boards = await boardService.query({ userId })
-        console.log("🚀 ~ getBoards ~ boards:", boards)
         res.json(boards)
     } catch(err) {
         loggerService.error(`Failed to get boards of user ${loggedInUser._id}`)
         res.status(400).send({ err: 'Failed to get boards' })
     }
 }
+
 export async function getBoard(req, res) {
     const { loggedInUser } = req
-    console.log('getBoard runs - controller')
 
     try {
         const board = await boardService.getLastBoardByUserId(loggedInUser._id)
+        console.log('latest board:', board)
         res.json(board)
     } catch(err) {
         loggerService.error(`Failed to get board by userId ${loggedInUser._id}`, err)
@@ -32,6 +31,7 @@ export async function addBoard(req, res) {
         console.log('loggedInUser:', req.loggedInUser)
 
     const { loggedInUser } = req
+    console.log("🚀 ~ addBoard ~ loggedInUser:", loggedInUser)
     try {
         const board = {
             ...req.body,
@@ -57,6 +57,7 @@ export async function updateBoard(req, res){
 
     try{
         const updatedBoard = await boardService.update(board)
+        console.log("🚀 ~ updateBoard ~ updatedBoard:", updatedBoard)
         res.json(updatedBoard)
     } catch(err) {
         loggerService.error('Failed to update a board', err)
