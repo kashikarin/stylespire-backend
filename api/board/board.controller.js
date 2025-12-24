@@ -28,8 +28,6 @@ export async function getBoard(req, res) {
 }
 
 export async function addBoard(req, res) {
-        console.log('loggedInUser:', req.loggedInUser)
-
     const { loggedInUser } = req
     console.log("🚀 ~ addBoard ~ loggedInUser:", loggedInUser)
     try {
@@ -44,6 +42,8 @@ export async function addBoard(req, res) {
         }
         
         const addedBoard = await boardService.add(board)
+        addedBoard._id = addedBoard._id.toString()
+        addedBoard.user._id = addedBoard.user._id.toString()
         res.json(addedBoard)
     } catch(err) {
         loggerService.error('Failed to add a board', err)
@@ -58,6 +58,8 @@ export async function updateBoard(req, res){
     try{
         const updatedBoard = await boardService.update(board)
         console.log("🚀 ~ updateBoard ~ updatedBoard:", updatedBoard)
+        updatedBoard._id = updatedBoard._id.toString()
+        updatedBoard.user._id = updatedBoard.user._id.toString()
         res.json(updatedBoard)
     } catch(err) {
         loggerService.error('Failed to update a board', err)

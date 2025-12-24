@@ -87,10 +87,6 @@ async function update(board) {
         { returnDocument: 'after', upsert: false }
     )
     if (!updatedBoard) throw new Error('Board not found')
-
-    updatedBoard._id = updatedBoard._id.toString()
-    updatedBoard.user._id = updatedBoard.user._id.toString()
-
     return updatedBoard
   } catch (err) {
     loggerService.error('Failed to update board', err)
