@@ -12,7 +12,7 @@ export const favoriteService = {
   query,
   getById,
   add,
-  remove
+  remove,
 }
 
 async function query(filterBy = {}) {
@@ -53,24 +53,6 @@ async function add(favorite) {
     throw err
   }
 }
-
-// async function update(order) {
-//   const criteria = { _id: toObjectId(order._id) }
-//   const { _id, ...orderToUpdate } = order
-  
-//   orderToUpdate.host.userId = toObjectId(orderToUpdate.host.userId)
-//   orderToUpdate.home.homeId = toObjectId(orderToUpdate.home.homeId)
-//   orderToUpdate.purchaser.userId = toObjectId(orderToUpdate.purchaser.userId)
-  
-//   try {
-//     const collection = await dbService.getCollection('order')
-//     await collection.updateOne(criteria, { $set: orderToUpdate })
-//     return orderToUpdate
-//   } catch (err) {
-//     loggerService.error('Failed to update order', err)
-//     throw err
-//   }
-// }
 
 async function remove(favoriteId) {
   const criteria = { _id: toObjectId(favoriteId) }
