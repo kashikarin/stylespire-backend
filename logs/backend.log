@@ -1002,3 +1002,188 @@
 9.1.2026, 17:51:05 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
 9.1.2026, 18:19:09 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
 9.1.2026, 18:19:09 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+10.1.2026, 10:08:40 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+10.1.2026, 10:08:40 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+10.1.2026, 11:19:09 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+10.1.2026, 11:19:09 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+10.1.2026, 11:19:11 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:11 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:12 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:31 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:40 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+10.1.2026, 11:19:40 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+10.1.2026, 11:19:41 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:41 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Failed to remove background | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:19:42 - ERROR - Background removal service failed | Error: connect ECONNREFUSED 127.0.0.1:8001
+10.1.2026, 11:21:23 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:21:56 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:22:32 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:22:38 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:22:44 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:22:55 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:23:00 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:23:10 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:23:38 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:23:42 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:23:58 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:24:02 - INFO - /api/upload | POST |  | {}
+10.1.2026, 11:24:04 - INFO - /api/upload | POST |  | {}
+10.1.2026, 21:31:27 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+10.1.2026, 21:31:27 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+10.1.2026, 21:36:33 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+10.1.2026, 21:36:33 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+11.1.2026, 10:58:23 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+11.1.2026, 10:58:23 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+11.1.2026, 10:58:31 - INFO - /api/favorite | POST | {"image":{"id":"Ed9HRs88elM","description":"a woman in a black top and yellow pants","url":"https://images.unsplash.com/photo-1713145871573-2be126b7af4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwyOXx8d29tYW4lMjB0ZWVuJTIwZmFzaGlvbiUyMHN0cmVldCUyMHN0eWxlJTIwY2FzdWFsJTIwbGFpZCUyMGJhY2slMjBzbWFydCUyMGNhc3VhbCUyMHN1bW1lciUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxMjE5MDF8MA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768121911139} | {}
+11.1.2026, 14:12:01 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:12:01 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:12:11 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:12:11 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:12:48 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:12:48 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:13:24 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:13:24 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:15:25 - DEBUG - auth.routes - user login | {"_id":"691f2b7a9d476f3935f25391","email":"kk@gmail.com","fullname":"karin kashi","createdAt":1763650426788}
+11.1.2026, 14:15:25 - INFO - User login | {"email":"kk@gmail.com","_id":"691f2b7a9d476f3935f25391"}
+11.1.2026, 14:18:59 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:18:59 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:30:02 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:30:02 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:31:09 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:31:09 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:31:44 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:31:44 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:32:08 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:32:08 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:33:20 - INFO - /api/favorite | POST | {"image":{"id":"XQojYVwjlEU","description":"woman in white and black plaid dress standing beside body of water during daytime","url":"https://images.unsplash.com/photo-1605026837427-c2fdc9887f52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwyOXx8d29tYW4lMjB1cmJhbiUyMGZhc2hpb24lMjBzdHJlZXR3ZWFyJTIwbG91bmdld2VhciUyMHByYWN0aWNhbCUyMGxpZ2h0JTIwY2xvdGhlcyUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxMzQ3ODJ8MA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768134800927} | {}
+11.1.2026, 14:33:44 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:33:44 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:35:47 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:35:47 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:41:04 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 14:41:04 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 14:41:22 - INFO - /api/favorite | POST | {"image":{"id":"nt6Ei_HjwZQ","description":"woman in white shirt and black shorts sitting on white plastic chair","url":"https://images.unsplash.com/photo-1591779497943-1f940b1da700?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwyOXx8d29tYW4lMjBjYXN1YWwlMjBldmVyeWRheSUyMGNvenklMjBjb21mb3J0YWJsZSUyMGNhc3VhbCUyMHN1bW1lciUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxMzUyNzV8MA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135282106} | {}
+11.1.2026, 14:41:40 - INFO - /api/favorite | POST | {"image":{"id":"MLxkQQExu8o","description":"a woman standing on a sidewalk next to a tree","url":"https://images.unsplash.com/photo-1713145872655-a75587b6fd65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHN0cmVldCUyMHN0eWxlJTIwZXZlcnlkYXklMjBsb3VuZ2V3ZWFyJTIwcHJhY3RpY2FsJTIwc3VtbWVyJTIwc3VubnklMjBvdXRmaXR8ZW58MXwxfHx8MTc2ODEzNTI5MXww&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135300780} | {}
+11.1.2026, 14:42:17 - INFO - /api/favorite | POST | {"image":{"id":"T9yMGus7l9k","description":"a little girl standing on top of a rock near the ocean","url":"https://images.unsplash.com/photo-1692965742678-dcd7d5bb023a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHRlZW4lMjBmYXNoaW9uJTIwc3BvcnR5JTIwYWN0aXZld2VhciUyMHBsYXlmdWwlMjBzdHlsZSUyMGNvbWZvcnRhYmxlJTIwc3VtbWVyJTIwc3VubnklMjBvdXRmaXR8ZW58MXwxfHx8MTc2ODEzNTMyNXww&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135337272} | {}
+11.1.2026, 14:42:22 - INFO - /api/favorite | POST | {"image":{"id":"D-GELlAyeT8","description":"woman in white t-shirt and black skirt standing on sidewalk during daytime","url":"https://images.unsplash.com/photo-1597621757264-72b9b3cb7faa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHRlZW4lMjBmYXNoaW9uJTIwYWN0aXZld2VhciUyMGZpdG5lc3MlMjBmYXNoaW9uJTIwdmlicmFudCUyMGNvbWZvcnRhYmxlJTIwbGlnaHQlMjBjbG90aGVzJTIwc3VubnklMjBvdXRmaXR8ZW58MXwxfHx8MTc2ODEzNTMzNnww&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135342126} | {}
+11.1.2026, 14:44:01 - INFO - /api/favorite | POST | {"image":{"id":"FzZZeV2NLHE","description":"A woman in a dress is walking down the street","url":"https://images.unsplash.com/photo-1733041482443-d03e16bce4c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwyNHx8d29tYW4lMjB0cmVuZHklMjBmYXNoaW9uJTIwZm9yd2FyZCUyMGVsZWdhbnQlMjBkaW5uZXIlMjBzdW1tZXIlMjBzdW5ueSUyMG91dGZpdHxlbnwxfDF8fHwxNzY4MTM1NDMwfDA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135441100} | {}
+11.1.2026, 14:44:25 - INFO - /api/favorite | POST | {"image":{"id":"hSX-V8JJoRQ","description":"Woman poses on a crosswalk, hair blowing.","url":"https://images.unsplash.com/photo-1748620755011-139976988d08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwzMHx8d29tYW4lMjB0cmVuZHklMjBvbiUyMHRyZW5kJTIwZWxlZ2FudCUyMGRpbm5lciUyMGxpZ2h0JTIwY2xvdGhlcyUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxMzU0NTl8MA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135465670} | {}
+11.1.2026, 14:44:57 - INFO - /api/favorite | POST | {"image":{"id":"6hCePEuGUAw","description":"A woman sitting at a table with a plate of food","url":"https://images.unsplash.com/photo-1730871083136-196608b6e94c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwyOHx8d29tYW4lMjBuZXV0cmFsJTIwYWVzdGhldGljJTIwbWluaW1hbGlzdCUyMGZhc2hpb24lMjByb21hbnRpYyUyMGNhZmUlMjBmYXNoaW9uJTIwbGlnaHQlMjBjbG90aGVzJTIwc3VubnklMjBvdXRmaXR8ZW58MXwxfHx8MTc2ODEzNTQ4NXww&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135497965} | {}
+11.1.2026, 14:46:15 - INFO - /api/favorite | POST | {"image":{"id":"hzLBMMSBw9k","description":"Woman in hijab and sunglasses sitting outdoors.","url":"https://images.unsplash.com/photo-1765691893389-909e5adf93af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwxNXx8d29tYW4lMjBuZXV0cmFsJTIwYWVzdGhldGljJTIwbWluaW1hbGlzdCUyMGZhc2hpb24lMjBzb2Z0JTIwZmVtaW5pbmUlMjBjb3p5JTIwY2FmZSUyMGxpZ2h0JTIwY2xvdGhlcyUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxMzU1MjB8MA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135575082} | {}
+11.1.2026, 14:46:17 - INFO - /api/favorite | POST | {"image":{"id":"5YUr-f-sWdM","description":"woman in white long sleeve shirt sitting on white chair","url":"https://images.unsplash.com/photo-1607477790438-42375e6aa1e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwxNnx8d29tYW4lMjBuZXV0cmFsJTIwYWVzdGhldGljJTIwbWluaW1hbGlzdCUyMGZhc2hpb24lMjBzb2Z0JTIwZmVtaW5pbmUlMjBjb3p5JTIwY2FmZSUyMGxpZ2h0JTIwY2xvdGhlcyUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxMzU1MjB8MA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768135577962} | {}
+11.1.2026, 15:02:38 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 15:02:38 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 15:02:49 - INFO - /api/favorite | POST | {"image":{"id":"Y9hCL9khdfc","description":"Young woman in a yellow dress holding a blue purse.","url":"https://images.unsplash.com/photo-1760341686980-2282700ac85a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwyMnx8d29tYW4lMjB0ZWVuJTIwZmFzaGlvbiUyMGNhc3VhbCUyMHN0cmVldCUyMHN0eWxlJTIwcGxheWZ1bCUyMHN0eWxlJTIwY296eSUyMGNhZmUlMjBzdW1tZXIlMjBzdW5ueSUyMG91dGZpdHxlbnwxfDF8fHwxNzY4MTM2NTYzfDA&ixlib=rb-4.1.0&q=80&w=400"},"createdAt":1768136569406} | {}
+11.1.2026, 15:20:03 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 15:20:03 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 15:20:05 - INFO - /api/favorite | POST | {"image":{"id":"cP6HBXQOS4A"},"createdAt":1768137605895} | {}
+11.1.2026, 15:21:22 - INFO - /api/favorite | POST | {"image":{"id":"JkddV2iM5bc"},"createdAt":1768137682287} | {}
+11.1.2026, 15:24:03 - INFO - /api/favorite | POST | {"image":{"id":"P9z2bDOUC0E"},"createdAt":1768137843257} | {}
+11.1.2026, 15:37:25 - INFO - /api/favorite | POST | {"image":{"id":"Slk5c8cHP_c"},"createdAt":1768138645246} | {}
+11.1.2026, 15:37:27 - INFO - /api/favorite | POST | {"image":{"id":"Slk5c8cHP_c"},"createdAt":1768138647393} | {}
+11.1.2026, 15:37:30 - INFO - /api/favorite | POST | {"image":{"id":"Slk5c8cHP_c"},"createdAt":1768138650921} | {}
+11.1.2026, 15:37:43 - INFO - /api/favorite | POST | {"image":{"id":"Slk5c8cHP_c"},"createdAt":1768138663816} | {}
+11.1.2026, 15:46:41 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 15:46:41 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 15:47:02 - INFO - /api/favorite | POST | {"userId":"69637828a1cd3b38757bbabf","image":{"id":"Q2Us4yAhe5g","url":"https://images.unsplash.com/photo-1691154928997-5d839847e4e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwxNnx8d29tYW4lMjBuZXV0cmFsJTIwYWVzdGhldGljJTIwY2xlYW4lMjBhZXN0aGV0aWMlMjBzb2Z0JTIwZmVtaW5pbmUlMjBjYWZlJTIwZmFzaGlvbiUyMHN1bW1lciUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxMzkyMDJ8MA&ixlib=rb-4.1.0&q=80&w=400","description":"a woman in a white suit and hat standing in front of a coffee truck"},"createdAt":1768139222211} | {}
+11.1.2026, 15:48:58 - INFO - /api/favorite | POST | {"userId":"69637828a1cd3b38757bbabf","image":{"id":"NFVQroSSVUU","url":"https://images.unsplash.com/photo-1698250542468-a01762bef483?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHN0cmVldCUyMHN0eWxlJTIwY2FzdWFsJTIwcGxheWZ1bCUyMHN0eWxlJTIwbmlnaHQlMjBvdXQlMjBmYXNoaW9uJTIwc3VtbWVyJTIwc3VubnklMjBvdXRmaXR8ZW58MXwxfHx8MTc2ODEzOTMzNHww&ixlib=rb-4.1.0&q=80&w=400","description":"a woman walking down a street at night"},"createdAt":1768139338419} | {}
+11.1.2026, 15:49:47 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+11.1.2026, 15:49:47 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+11.1.2026, 16:02:00 - INFO - /api/favorite | POST | {"userId":"69637828a1cd3b38757bbabf","image":{"id":"-o_fu7ejP50","url":"https://images.unsplash.com/photo-1709701576197-7286124532a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwxNnx8d29tYW4lMjB0ZWVuJTIwZmFzaGlvbiUyMGNhc3VhbCUyMHN0cmVldCUyMHN0eWxlJTIwdmlicmFudCUyMGJ1c2luZXNzJTIwY2FzdWFsJTIwc3VtbWVyJTIwc3VubnklMjBvdXRmaXR8ZW58MXwxfHx8MTc2ODEzNzU0MHww&ixlib=rb-4.1.0&q=80&w=400","description":"a woman in a short black dress leaning against a wall"},"createdAt":1768140120901} | {}
+11.1.2026, 16:02:40 - INFO - /api/favorite | POST | {"userId":"69637828a1cd3b38757bbabf","image":{"id":"VQslr6eETGE","url":"https://images.unsplash.com/photo-1626179132559-87f568cc4130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwxMXx8bWFuJTIwc3BvcnR5JTIwYWN0aXZld2VhciUyMGNvenklMjBjb21mb3J0YWJsZSUyMGNhc3VhbCUyMHN1bW1lciUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxNDAxNTN8MA&ixlib=rb-4.1.0&q=80&w=400","description":"woman in black and yellow dress sitting on white chair"},"createdAt":1768140160805} | {}
+11.1.2026, 16:02:44 - INFO - /api/favorite | POST | {"userId":"69637828a1cd3b38757bbabf","image":{"id":"DBxrSjgdlbY","url":"https://images.unsplash.com/photo-1660748218741-375b4e2c2ffb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzE3OTV8MHwxfHNlYXJjaHwxNHx8bWFuJTIwc3BvcnR5JTIwYWN0aXZld2VhciUyMGNvenklMjBjb21mb3J0YWJsZSUyMGNhc3VhbCUyMHN1bW1lciUyMHN1bm55JTIwb3V0Zml0fGVufDF8MXx8fDE3NjgxNDAxNTN8MA&ixlib=rb-4.1.0&q=80&w=400","description":"a man sitting on a stone bench reading a book"},"createdAt":1768140164505} | {}

@@ -30,37 +30,53 @@ export async function signup(req, res) {
 }
 
 export async function login(req, res) {
-  console.log('🍪 cookies:', req.cookies)
+   const isProd = process.env.NODE_ENV === 'production'
 
   try {
     const credentials = req.body
     const { user, accessToken, refreshToken } = await authService.login(credentials)
     
-    loggerService.debug("auth.routes - user login", user);
+    loggerService.debug("auth.routes - user login", user)
 
     res.cookie("refreshToken", refreshToken, {
         httpOnly: true,
-        secure: false,  //in production change to true
-        sameSite: "lax",
+        secure: isProd,  
+        sameSite: isProd ? 'None' : "lax",
         path: "/"
     })
 
     loggerService.info("User login", { email: user.email, _id: user._id })
 
     res.json({ user: normalizeUser(user), accessToken })
-
-
-
-    // const { username, email, password } = req.body
-
-    // if (!password || (!username && !email)) {
-    //   return res.status(400).send({ err: 'Missing required fields' })
-    // }
-
   } catch (err) {
     loggerService.error('Failed to Login ', err)
     res.status(401).json({ err: err.message || 'Failed to Login' })
   }
+}
+
+export async function loginDemo(req, res) {
+    const isProd = process.env.NODE_ENV === 'production'
+
+    try {
+      const { user, accessToken, refreshToken } =
+      await authService.loginDemo()
+
+      loggerService.debug("auth.routes - demo user login", user)
+
+      res.cookie("refreshToken", refreshToken, {
+        httpOnly: true,
+        secure: isProd,  
+        sameSite: isProd ? 'None' : "lax",
+        path: "/"
+      })
+
+      loggerService.info("Demo User login", { email: user.email, _id: user._id })
+
+      res.json({ user: normalizeUser(user), accessToken })
+    } catch (err) {
+      loggerService.error('Failed to Login Demo User ', err)
+      res.status(401).json({ err: err.message || 'Failed to Login Demo User' })
+    }
 }
 
 export async function refresh(req, res) {

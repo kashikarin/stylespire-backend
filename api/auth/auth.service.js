@@ -8,6 +8,7 @@ const SALT_ROUNDS = 10
 export const authService = {
     signup,
     login,
+    loginDemo,
     refresh,
     createTokens,
 }
@@ -27,6 +28,7 @@ export async function signup({email, password, fullname}){
         fullname,
         email,
         password: hash,
+        role: 'user',
         createdAt: Date.now(),
     }
 
@@ -36,6 +38,7 @@ export async function signup({email, password, fullname}){
         _id: insertedId,
         email: userToSave.email,
         fullname: userToSave.fullname,
+        role: userToSave.role,
         createdAt: userToSave.createdAt,
     }
 
@@ -58,6 +61,25 @@ export async function login({email, password}){
         email: user.email,
         fullname: user.fullname,
         createdAt: user.createdAt
+    }
+
+    const { accessToken, refreshToken } = createTokens(cleanUser)
+
+    return { user: cleanUser, accessToken, refreshToken }
+}
+
+export async function loginDemo(){
+    const collection = await dbService.getCollection('user')
+    let demoUser = await collection.findOne({ role: 'demo' })
+
+    if (!demoUser) throw new Error('Demo user not found')
+
+    const cleanUser = {
+        _id: demoUser._id,
+        email: demoUser.email,
+        fullname: demoUser.fullname,
+        role: demoUser.role,
+        createdAt: demoUser.createdAt
     }
 
     const { accessToken, refreshToken } = createTokens(cleanUser)
