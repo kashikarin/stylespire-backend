@@ -3,8 +3,10 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import { authRoutes } from './api/auth/auth.routes.js'
 import cookieParser from 'cookie-parser'
-import { setupAsyncLocalStorage } from './middleware/setupAls.middleware.js'
 import path from 'path'
+
+import { setupAsyncLocalStorage } from './middleware/setupAls.middleware.js'
+
 import { userRoutes } from './api/user/user.routes.js'
 import { favoriteRoutes } from './api/favorite/favorite.routes.js'
 import { boardRoutes } from './api/board/board.routes.js'
@@ -12,11 +14,36 @@ import { backgroundRoutes } from './api/background/background.routes.js'
 import { uploadRoutes } from './api/upload/upload.routes.js'
 
 dotenv.config()
+
 const app = express()
+const __dirname = process.cwd()
+
 app.use(express.json())
 app.use(cookieParser())
 
-const __dirname = process.cwd()
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:5174',
+  'http://localhost:8000',
+  'http://localhost:8001',
+  'http://127.0.0.1:5173',
+  'http://127.0.0.1:5174',
+  'http://127.0.0.1:8000',
+  'http://127.0.0.1:8001',
+  'https://stylespire-app.onrender.com/'
+]
+
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true)
+    } else {
+      callback(new Error('Not allowed by CORS'))
+    }
+  },
+  credentials: true
+}))
+
 app.use(
     '/uploads', 
     express.static(path.join(__dirname, 'uploads'))
@@ -24,19 +51,6 @@ app.use(
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.resolve('public')))
-} else {
-  const corsOptions = {
-    origin: [
-      'http://127.0.0.1:8000',
-      'http://localhost:8000',
-      'http://127.0.0.1:5173',
-      'http://localhost:5173',
-      'http://127.0.0.1:5174',
-      'http://localhost:5174'
-    ],
-    credentials: true,
-  }
-  app.use(cors(corsOptions))
 }
 
 app.use(setupAsyncLocalStorage)

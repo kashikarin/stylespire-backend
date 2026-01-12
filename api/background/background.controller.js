@@ -16,7 +16,11 @@ export async function removeBackground(req, res) {
         res.send(imageBuffer)
 
     } catch(err) {
+        console.error('REMOVE BG ERROR:', err?.response?.data || err)
         loggerService.error('Failed to remove background', err)
-        res.status(400).send({ err: 'Failed to remove background' })
+        res.status(500).send({
+            err: 'Failed to remove background',
+            details: err?.response?.data || err?.message
+        })
     }
 }
