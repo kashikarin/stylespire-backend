@@ -8,9 +8,7 @@ export async function uploadImage(req, res) {
         }
         const relativePath = await uploadService.upload(file)
         
-        const fullUrl = `${req.protocol}://${req.get('host')}${relativePath}`
-
-        res.json({ url: fullUrl})
+        res.json({ url: relativePath})
     } catch (err) {
         res.status(500).send({ error: 'Failed to upload image' })
     }
