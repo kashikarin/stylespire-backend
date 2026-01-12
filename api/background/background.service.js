@@ -10,7 +10,6 @@ export const backgroundService = {
 }
 
 async function removeBackgroundFromImage(imageUrl) {
-    console.log('PYTHON_BG_SERVICE_URL =', PYTHON_BG_SERVICE_URL)
     try {
         const response = await axios.post(PYTHON_BG_SERVICE_URL, 
             { image_url: imageUrl },

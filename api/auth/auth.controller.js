@@ -124,7 +124,6 @@ export async function logout(req, res) {
 
 export async function getMe(req, res) {
   const loggedInUser = req.loggedInUser
-  console.log("🚀 ~ getMe ~ loggedInUser:", loggedInUser)
   try {
     const collection = await dbService.getCollection('user')
     const user = await collection.findOne({ 
@@ -145,7 +144,6 @@ export async function getMe(req, res) {
 }
 
 function normalizeUser(user) {
-  console.log("🚀 ~ normalizeUser ~ user:", user)
   return {
     _id: user._id,
     fullname: user.fullname,

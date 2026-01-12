@@ -19,7 +19,6 @@ export async function getBoard(req, res) {
 
     try {
         const board = await boardService.getLastBoardByUserId(loggedInUser._id)
-        console.log('latest board:', board)
         res.json(board)
     } catch(err) {
         loggerService.error(`Failed to get board by userId ${loggedInUser._id}`, err)
@@ -29,7 +28,6 @@ export async function getBoard(req, res) {
 
 export async function addBoard(req, res) {
     const { loggedInUser } = req
-    console.log("🚀 ~ addBoard ~ loggedInUser:", loggedInUser)
     try {
         const board = {
             ...req.body,
@@ -53,11 +51,8 @@ export async function addBoard(req, res) {
 
 export async function updateBoard(req, res){
     const board = req.body
-    console.log("🚀 ~ updateBoard ~ req.body:", req.body)
-
     try{
         const updatedBoard = await boardService.update(board)
-        console.log("🚀 ~ updateBoard ~ updatedBoard:", updatedBoard)
         updatedBoard._id = updatedBoard._id.toString()
         updatedBoard.user._id = updatedBoard.user._id.toString()
         res.json(updatedBoard)

@@ -35,7 +35,6 @@ export async function addFavorite(req, res) {
             fullname: loggedInUser.fullname
         }
         const addedFavorite = await favoriteService.add(favorite)
-        console.log("🚀 ~ addFavorite ~ addedFavorite:", addedFavorite)
         res.json(addedFavorite)
     } catch(err) {
         loggerService.error('Failed to add a favorite', err)
@@ -52,4 +51,18 @@ export async function removeFavorite(req, res) {
         loggerService.error(`Failed to remove favorite by id ${favoriteId}`, err)
         res.status(400).send({ err: 'Failed to remove favorite' })
     }
+}
+
+export async function updateFavorite(req, res) {
+    const { favoriteId } = req.params
+    const fieldsToUpdate = req.body
+    try {
+        const updatedFavorite = await favoriteService.update(favoriteId, fieldsToUpdate)
+        updatedFavorite._id = updatedFavorite._id.toString()
+        updatedFavorite.user._id = updatedFavorite.user._id.toString()
+        res.json(updatedFavorite)
+    } catch (err) {
+        loggerService.error(`Failed to update favorite by id ${favoriteId}`, err)
+        res.status(400).send({ err: 'Failed to update favorite' })
+    }   
 }

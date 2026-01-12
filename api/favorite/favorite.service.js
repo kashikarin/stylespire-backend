@@ -16,7 +16,6 @@ export const favoriteService = {
 }
 
 async function query(filterBy = {}) {
-  console.log("🚀 ~ filterBy:", filterBy)
   try {
     const criteria = _buildCriteria(filterBy)    
     const collection = await dbService.getCollection('favorite')

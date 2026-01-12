@@ -11,14 +11,11 @@ function toObjectId(id) {
 export const boardService = {
   query,
   getLastBoardByUserId,
-//   getById,
   add,
-//   remove,
   update
 }
 
 async function query(filterBy = {}) {
-  console.log("🚀 ~ filterBy:", filterBy)
   try {
     const criteria = _buildCriteria(filterBy)    
     const collection = await dbService.getCollection('board')
@@ -47,17 +44,6 @@ async function getLastBoardByUserId(userId){
         throw err
     }
 }
-// async function getByUserId(userId) {
-//   try {
-//     const criteria = { _id: toObjectId(favoriteId) }
-//     const collection = await dbService.getCollection('favorite')
-//     const favorite = await collection.findOne(criteria)
-//     return favorite
-//   } catch (err) {
-//     loggerService.error(`while finding favorite ${String(favoriteId)}`, err)
-//     throw err
-//   }
-// }
 
 async function add(board) {
 
@@ -94,23 +80,9 @@ async function update(board) {
   }
 }
 
-// async function remove(favoriteId) {
-//   const criteria = { _id: toObjectId(favoriteId) }
-//   try {
-//     const collection = await dbService.getCollection('favorite')
-//     const res = await collection.deleteOne(criteria)
-//     if (res.deletedCount === 0) throw new Error('Wrong favorite')
-//     return favoriteId
-//   } catch (err) {
-//     loggerService.error('Failed to remove favorite', err)
-//     throw err
-//   }
-// }
-
 function _buildCriteria(filterBy) {
   const criteria = {}
   if (filterBy.userId) criteria['user._id'] = toObjectId(filterBy.userId)
-//   if (filterBy.createdAt) criteria.createdAt = { $gte: new Date(filterBy.createdAfter) }
   
   
   return criteria

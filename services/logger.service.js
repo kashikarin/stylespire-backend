@@ -13,7 +13,6 @@ const logsDir = './logs'
 if (!fs.existsSync(logsDir)) fs.mkdirSync(logsDir)
 
 function doLog(level, ...args) {
-  console.log('DOLOG RUNS')
   const store = asyncLocalStorage.getStore()
   const userId = store?.loggedinUser?._id
 
@@ -24,7 +23,6 @@ function doLog(level, ...args) {
   if (userId) strs.push(userId)
 
   const line = `${_getTime()} - ${level} - ${strs.join(' | ')}\n`
-  console.log(line)
 
   fs.appendFile(`${logsDir}/backend.log`, line, (err) => {
     if (err) console.log('FATAL: cannot write to log file')
