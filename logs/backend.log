@@ -1332,3 +1332,5 @@
 12.1.2026, 15:00:41 - DEBUG - auth.routes - token refreshed
 12.1.2026, 15:15:50 - DEBUG - auth.routes - token refreshed
 12.1.2026, 15:31:31 - DEBUG - auth.routes - token refreshed
+12.1.2026, 15:49:27 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+12.1.2026, 15:49:27 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
