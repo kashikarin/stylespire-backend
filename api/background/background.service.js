@@ -2,7 +2,7 @@ import axios from "axios"
 import { loggerService } from "../../services/logger.service.js"
 
 const PYTHON_BG_SERVICE_URL =
-  process.env.BG_REMOVAL_SERVICE_URL ||
+  process.env.REMOVE_BG_SERVICE_URL ||
   'http://127.0.0.1:8001/remove-background'
 
 export const backgroundService = {
