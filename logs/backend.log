@@ -1562,3 +1562,7 @@
 13.1.2026, 15:59:37 - DEBUG - auth.routes - token refreshed
 13.1.2026, 16:00:11 - INFO - /api/upload | POST |  | {}
 13.1.2026, 16:46:58 - DEBUG - auth.routes - token refreshed
+13.1.2026, 17:23:15 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
+13.1.2026, 17:23:15 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+13.1.2026, 17:24:20 - DEBUG - auth.routes - demo user login | {"_id":"69637828a1cd3b38757bbabf","email":"demo@stylespire.io","fullname":"Demo User","role":"demo","createdAt":1763650426788}
+13.1.2026, 17:24:20 - INFO - Demo User login | {"email":"demo@stylespire.io","_id":"69637828a1cd3b38757bbabf"}
