@@ -3475,30 +3475,29 @@ For more info see: https://github.com/konvajs/react-konva/issues/194
                     safe-pt safe-pb\r
                     fixed inset-0 \r
                     bg-white \r
-                    max-w-none max-h-none w-full h-full \r
-                    flex flex-col justify-start items-stretch \r
+                    w-full h-full \r
+                    flex flex-col \r
                     z-10\r
-                    p-6\r
+                    px-4 py-3 mt-3\r
                     narrow:inset-auto\r
                     narrow:top-1/2 narrow:left-1/2\r
                     narrow:-translate-x-1/2 narrow:-translate-y-1/2 \r
                     narrow:scrollbar-none\r
                     narrow:z-50\r
-                    narrow:w-[500px] narrow:h-auto narrow:max-h-[90svh]\r
+                    narrow:w-[500px] narrow:max-h-[90svh]\r
                     narrow:rounded-xl\r
                     narrow:shadow-lg\r
-                    // narrow:overflow-y-auto\r
                     narrow:p-0\r
                 `,children:H.jsxs("div",{ref:e,className:`\r
-                        flex-none\r
+                        flex flex-col\r
                         bg-white\r
                         rounded-xl\r
                         dir-ltr text-left\r
-                        p-7\r
-                        overflow-y-auto overscroll-contain \r
+                        px-5 py-4\r
+                        overflow-hidden \r
                         border border-gray1\r
-                        narrow:flex-initial\r
-                        narrow:rounded-xl\r
+                        narrow:overflow-y-auto\r
+                        narrow:p-7\r
                         narrow:relative  \r
                         narrow:modalSlideIn\r
                     `,children:[H.jsx("button",{className:`\r
@@ -3517,41 +3516,43 @@ For more info see: https://github.com/konvajs/react-konva/issues/194
                             narrow:hover:text-gray4 narrow:hover:bg-primary-bg\r
                         `,onClick:n,children:"×"}),H.jsxs("div",{children:[H.jsx("h2",{className:`\r
                                 text-center\r
-                                mb-3\r
+                                mb-2\r
                                 font-semibold\r
-                                text-2xl\r
-                                mobile:text-lg\r
+                                text-xl\r
+                                narrow:mb-3\r
+                                narrow:text-2xl\r
                             `,children:c==="signup"?"Sign Up":"Log In"}),g&&H.jsx("div",{className:`\r
                                     bg-surface\r
-                                    py-3 px-4\r
+                                    py-2 px-3\r
                                     rounded-md\r
                                     border-green-surface\r
                                     text-sm\r
                                     text-primary-dark\r
-                                    mb-5\r
+                                    mb-3\r
                                     text-center\r
-                                `,children:g}),H.jsxs("form",{onSubmit:o,className:"flex flex-col gap-3",children:[c==="login"?H.jsx(wD,{emailRef:t,credentials:a,isLoading:f,onInputChange:h}):H.jsx(ED,{emailRef:t,credentials:a,onInputChange:h,isLoading:f}),H.jsx("button",{type:"submit",className:`\r
+                                    narrow:py-3 narrow:px-4 narrow:mb-5\r
+                                `,children:g}),H.jsxs("form",{onSubmit:o,className:"flex flex-col gap-2 narrow:gap-3",children:[c==="login"?H.jsx(wD,{emailRef:t,credentials:a,isLoading:f,onInputChange:h}):H.jsx(ED,{emailRef:t,credentials:a,onInputChange:h,isLoading:f}),H.jsx("button",{type:"submit",className:`\r
                                     bg-primary-dark\r
                                     text-white\r
                                     border-none\r
-                                    py-3 px-5\r
+                                    py-2\r
                                     rounded-lg\r
                                     text-base\r
                                     font-semibold\r
                                     cursor-pointer\r
                                     transition-all\r
                                     duration-300\r
-                                    mt-2\r
-                                    mx-0\r
+                                    mt-1\r
                                     hover:bg-green-surface\r
                                     disabled:bg-surface \r
                                     disabled:cursor-not-allowed\r
                                     disabled:transform-none\r
+                                    narrow:py-3 narrow:mt-2\r
                                 `,disabled:f,children:f?"Loading...":c==="signup"?"Sign Up":"Log In"})]}),H.jsx("div",{className:`\r
                                 text-center \r
-                                mt-5\r
-                                pt-5\r
+                                mt-3 pt-3\r
                                 border-t-border\r
+                                narrow:mt-5 narrow:pt-5\r
                             `,children:H.jsxs("span",{className:"text-gray3 text-sm",children:[c==="signup"?"Already have an account? ":"Don't have an account? ",H.jsx("button",{className:`\r
                                         bg-transparent\r
                                         border-none\r
@@ -3563,9 +3564,9 @@ For more info see: https://github.com/konvajs/react-konva/issues/194
                                         hover:text-text\r
                                         disabled:text-gray1 disabled:cursor-not-allowed\r
                                         focus:outline-text outline-offset-2\r
-                                    `,onClick:s,disabled:f,children:c==="signup"?"Log In":"Sign Up"}),H.jsxs("div",{className:"flex items-center gap-3 my-5",children:[H.jsx("span",{className:"flex-1 h-px bg-border"}),H.jsx("span",{className:"text-xs text-gray3",children:"or"}),H.jsx("span",{className:"flex-1 h-px bg-border"})]}),H.jsx("button",{type:"button",onClick:y,disabled:f,className:`\r
+                                    `,onClick:s,disabled:f,children:c==="signup"?"Log In":"Sign Up"}),H.jsxs("div",{className:"flex items-center gap-3 my-3 narrow:my-5",children:[H.jsx("span",{className:"flex-1 h-px bg-border"}),H.jsx("span",{className:"text-xs text-gray3",children:"or"}),H.jsx("span",{className:"flex-1 h-px bg-border"})]}),H.jsx("button",{type:"button",onClick:y,disabled:f,className:`\r
                                         w-full\r
-                                        py-3 px-5\r
+                                        py-2\r
                                         rounded-lg\r
                                         text-base\r
                                         font-semibold\r
@@ -3581,7 +3582,8 @@ For more info see: https://github.com/konvajs/react-konva/issues/194
                                         focus:ring-primary-dark-20\r
                                         disabled:opacity-50\r
                                         disabled:cursor-not-allowed\r
-                                    `,children:"Continue with Demo"}),H.jsx("p",{className:"text-xs text-gray3 text-center mt-2",children:"No sign up required"})]})})]})]})})]})}function AD(){const{loggedInUser:t}=Ds();function e(){t?wv():bh("login")}function n(){bh(null)}return{resetAuthMode:n,handleAuthClick:e}}function zD(){const{loggedInUser:t}=Ds(),{resetAuthMode:e,handleAuthClick:n}=AD();return H.jsx("footer",{className:`\r
+                                        narrow:py-3\r
+                                    `,children:"Continue with Demo"}),H.jsx("p",{className:"text-xs text-gray3 text-center mt-1 hidden narrow:block",children:"No sign up required"})]})})]})]})})]})}function AD(){const{loggedInUser:t}=Ds();function e(){t?wv():bh("login")}function n(){bh(null)}return{resetAuthMode:n,handleAuthClick:e}}function zD(){const{loggedInUser:t}=Ds(),{resetAuthMode:e,handleAuthClick:n}=AD();return H.jsx("footer",{className:`\r
                 safe-pb\r
                 fixed \r
                 py-3\r
