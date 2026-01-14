@@ -3,7 +3,6 @@ import { loggerService } from '../../services/logger.service.js'
 import { favoriteService } from './favorite.service.js'
 
 export async function getFavorites(req, res){
-    // const { userId, description, imageId } = req.query
     const filterFavoritesBy = req.query
     try {
         if (filterFavoritesBy.userId) filterFavoritesBy.userId = new ObjectId(filterFavoritesBy.userId)

@@ -23,23 +23,3 @@ export async function getUsers(req, res) {
   }
 }
 
-// export async function deleteUser(req, res) {
-//   try {
-//     await userService.remove(req.params.userId)
-//     res.send({ msg: 'Deleted successfully' })
-//   } catch (err) {
-//     loggerService.error('Failed to delete user', err)
-//     res.status(400).send({ err: 'Failed to delete user' })
-//   }
-// }
-
-// export async function updateUser(req, res) {
-//   try {
-//     const user = req.body
-//     const savedUser = await userService.update(user)
-//     res.send(savedUser)
-//   } catch (err) {
-//     loggerService.error('Failed to update user', err)
-//     res.status(400).send({ err: 'Failed to update user' })
-//   }
-// }

@@ -7,7 +7,6 @@ const router = express.Router()
 
 router.get('/', requireAuth, getBoards)
 router.get('/active', requireAuth, getBoard)
-// router.delete('/:favoriteId', requireAuth, removeBoard)
 router.post('/', requireAuth, attachUser, addBoard)
 router.put('/:boardId', requireAuth, updateBoard)
 
