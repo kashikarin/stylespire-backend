@@ -3797,7 +3797,7 @@ For more info see: https://github.com/konvajs/react-konva/issues/194
                 border-l border-primary-dark \r
                 bg-primary-bg w-[200px] \r
                 shrink-0\r
-            `,children:[H.jsx("div",{className:"text-center px-4 pt-4 pb-1",children:H.jsx("p",{className:"text-sm text-primary-dark/60 mb-0",children:e?.title||"Untitled Board"})}),s&&H.jsx(kD,{label:s==="save"?"New Board Title":"Save board before switching?",buttonText:s==="save"?"Save":"Save and continue",value:n,onChange:h=>a(h.target.value),onSubmit:f,onCancel:c}),!s&&H.jsxs("div",{className:"flex flex-col gap-3 p-4",children:[H.jsx("button",{className:`\r
+            `,children:[H.jsx("div",{className:"text-center px-4 pt-4 pb-1",children:H.jsx("p",{className:"text-sm text-primary-dark/60 mb-0",children:e?.title||"Untitled Board"})}),s&&H.jsx(kD,{label:s==="save"?"New Board Title":"Save board before switching?",buttonText:s==="save"?"Save":"Save and continue",value:e?.title||"Untitled Board",onChange:h=>a(h.target.value),onSubmit:f,onCancel:c}),!s&&H.jsxs("div",{className:"flex flex-col gap-3 p-4",children:[H.jsx("button",{className:`\r
                             w-full px-2 py-1.5 \r
                             text-sm text-primary-dark text-center\r
                             border border-primary-dark/30 rounded-md\r
